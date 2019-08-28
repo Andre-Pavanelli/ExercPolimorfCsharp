@@ -21,7 +21,8 @@ namespace ExercicioPolProduct.Entities
                 + " (used) $ "
                 + Price.ToString("F2", CultureInfo.InvariantCulture)
                 + " (Manufacture date: "
-                + Date.ToString("dd/MM/yyyy");
+                + Date.ToString("dd/MM/yyyy")
+                + ")";
         }
     }
 }
